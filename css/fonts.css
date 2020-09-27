@@ -1,0 +1,12 @@
+@font-face {
+  font-family: pe-icon;
+  src: url(../fonts/Pe-icon-7-stroke.ttf);
+}
+@font-face {
+    font-family: qgy;
+    src: url('../fonts/qgy.woff')
+}
+@font-face {
+    font-family: qgyBold;
+    src: url('../fonts/qgy-bold.woff')
+}

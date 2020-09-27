@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo #2</title>
+    <link
+      rel="stylesheet"
+      href="OwlCarousel/assets/owl.theme.default.min.css"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap&subset=latin-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="OwlCarousel/assets/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/fonts.css">
+  </head>
+  <body>
+    <header class="header" id="__header">
+      <div class="container">
+        <img
+          src="./img/logo-light.svg"
+          id="__headerLogo"
+          alt=""
+          class="header__logo"
+        />
+        <nav class="header__navigation" id="__headerNavi">
+          <img src="./img/logo-light.svg" alt="" class="navigation__logo" />
+          <a class="playfair-header navigation__link" href="#home">Home</a>
+          <a class="playfair-header navigation__link" href="#About">About</a>
+          <a class="playfair-header navigation__link" href="#Projects">Projects</a>
+          <a class="playfair-header navigation__link" href="#Blog">Blog</a>
+          <a class="playfair-header navigation__link" href="#Contact">Contact</a>
+          <button class="navigation__close" id="__closeMenuButton"></button>
+        </nav>
+        <button class="header__open-menu-button" id="__openMenuButton"></button>
+      </div>
+    </header>
+    <main>
+      <section class="title" id="home">
+        <div class="container container--center">
+          <h2 class="title__h2">new branding agency</h2>
+          <h1 class="title__h1">
+            We are about to change the way <br /><span class="title__h1--italic"
+              >you publish on the web</span
+            >
+          </h1>
+          <div class="title__button-container">
+            <a class="button-container__anchor" href="#About"
+              ><span class="pe-7s-angle-down"></span
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="About">
+        <div class="container container--center">
+          <h2 class="about__title playfair-header">About Our Agency</h2>
+          <span class="about__text"
+            >We are a new design studio based in USA. We have over 20 years of
+            combined experience, and know a thing or two about designing
+            websites and mobile apps. Clever use of technology and lean
+            processes enable us to work faster and smarter.</span
+          >
+          <img
+            src="img/about-me-signature.png"
+            alt=""
+            class="about__signature"
+          />
+        </div>
+      </section>
+      <section class="stats">
+        <div class="container--center change-flow">
+          <div class="stats__item">
+            <span class="pe-7s-portfolio item__icon"></span>
+            <div class="item__info">
+              <span class="item__info--bolder">548</span><br />projects
+              completed
+            </div>
+          </div>
+          <div class="stats__item">
+            <span class="pe-7s-clock item__icon"></span>
+            <div class="item__info">
+              <span class="item__info--bolder">1465</span><br />working hours
+            </div>
+          </div>
+          <div class="stats__item">
+            <span class="pe-7s-star item__icon"></span>
+            <div class="item__info">
+              <span class="item__info--bolder">612</span><br />positive
+              feedbacks
+            </div>
+          </div>
+          <div class="stats__item">
+            <span class="pe-7s-like item__icon"></span>
+            <div class="item__info">
+              <span class="item__info--bolder">735</span><br />happy clients
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects" id="Projects">
+        <div class="container container--center change-flow">
+          <h2 class="playfair-header projects__header ">Best Projects</h2>
+          <span class="projects__text about__text container--center"
+            >Donec orci sem, pretium ac dolor et, faucibus faucibus mauris.
+            Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non
+            ultrices.</span
+          >
+          <div class="container--center items-wrapper change-flow">
+            <div class="projects__vert-wrapper">
+              <a class="projects__item" href="">
+                <img src="img/portfolio-1-800x540.jpg" alt="" srcset="" />
+                <div class="item__hidden">
+                  <span class="item__title ">some title</span
+                  ><span class="item__content"
+                    >some interesting (maybe not) content</span
+                  >
+                </div>
+              </a>
+              <a class="projects__item" href="">
+                <img src="img/portfolio-3-800x540.jpg" alt="" srcset="" />
+                <div class="item__hidden">
+                  <span class="item__title">some title</span
+                  ><span class="item__content"
+                    >some interesting (maybe not) content</span
+                  >
+                </div>
+              </a>
+            </div>
+            <div class="projects__vert-wrapper">
+              <a class="projects__item" href="">
+                <img src="img/portfolio-8-800x540.jpg" alt="" srcset="" />
+                <div class="item__hidden">
+                  <span class="item__title">some title</span
+                  ><span class="item__content"
+                    >some interesting (maybe not) content</span
+                  >
+                </div>
+              </a>
+              <a class="projects__item" href="">
+                <img src="img/portfolio-9-800x540.jpg" alt="" srcset="" />
+                <div class="item__hidden">
+                  <span class="item__title">some title</span
+                  ><span class="item__content"
+                    >some interesting (maybe not) content</span
+                  >
+                </div>
+              </a>
+            </div>
+            <a class="projects__item--vert" href="">
+              <img src="img/portfolio-2.jpg" alt="" srcset="" />
+              <div class="item__hidden">
+                <span class="item__title">some title</span
+                ><span class="item__content"
+                  >some interesting (maybe not) content</span
+                >
+              </div>
+            </a>
+            <a class="projects__item--vert" href="">
+              <img src="img/portfolio-2.jpg" alt="" srcset="" />
+              <div class="item__hidden">
+                <span class="item__title">some title</span
+                ><span class="item__content"
+                  >some interesting (maybe not) content</span
+                >
+              </div>
+            </a>
+            <a class="projects__item--vert" href="">
+              <img src="img/portfolio-2.jpg" alt="" srcset="" />
+              <div class="item__hidden">
+                <span class="item__title">some title</span
+                ><span class="item__content"
+                  >some interesting (maybe not) content</span
+                >
+              </div>
+            </a>
+            <div class="projects__vert-wrapper">
+              <a class="projects__item" href="">
+                <img src="img/portfolio-8-800x540.jpg" alt="" srcset="" />
+                <div class="item__hidden">
+                  <span class="item__title">some title</span
+                  ><span class="item__content"
+                    >some interesting (maybe not) content</span
+                  >
+                </div>
+              </a>
+              <a class="projects__item" href="">
+                <img src="img/portfolio-9-800x540.jpg" alt="" srcset="" />
+                <div class="item__hidden">
+                  <span class="item__title">some title</span
+                  ><span class="item__content"
+                    >some interesting (maybe not) content</span
+                  >
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="quotes">
+        <div class="container container--center">
+          <div class="owl-carousel owl-theme quotes__slider">
+            <div class="quotes__quote">
+              <span class="quote__content"
+                >Outstanding job and exceeded all expectations. It was a
+                pleasure to work with them on a sizable first project and am
+                looking forward to start the next one asap.</span
+              >
+              <span class="quote__author">Michael Hopkins</span>
+            </div>
+            <div class="quotes__quote">
+              <span class="quote__content"
+                >Outstanding job and exceeded all expectations. It was a
+                pleasure to work with them on a sizable first project and am
+                looking forward to start the next one asap.</span
+              >
+              <span class="quote__author">Michael Hopkins</span>
+            </div>
+            <div class="quotes__quote">
+              <span class="quote__content"
+                >Outstanding job and exceeded all expectations. It was a
+                pleasure to work with them on a sizable first project and am
+                looking forward to start the next one asap.</span
+              >
+              <span class="quote__author">Michael Hopkins</span>
+            </div>
+          </div>
+        </div>
+        <div class="quotes__indicators"></div>
+      </section>
+      <section class="partners">
+        <div class="">
+          <div
+            class="owl-carousel  container container--center partners__slider change-flow"
+          >
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-1-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-2-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-3-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-4-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-5-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-6-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-7-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-8-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-1-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-2-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-3-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+            <div class="partner__logo">
+              <a href=""
+                ><img
+                  src="img/partner-logo-4-dark.png"
+                  alt=""
+                  class="partner__logo--img"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="latest" id="Blog">
+        <div class="container container--center change-flow">
+          <h2 class="latest__title playfair-header">Latest Blog</h2>
+          <p class="latest__text-content">
+            Donec orci sem, pretium ac dolor et, faucibus faucibus mauris.
+            Etiam,pellentesque faucibus. Vestibulum gravida volutpat ipsum non
+            ultrices.
+          </p>
+          <div class="owl-carousel owl-theme latest__slider сontainer--center">
+            <div class="latest__card">
+              <div class="card__links">
+                <a class="card__image" href="">
+                  <img src="img/post-1-800x600.jpg" alt="" srcset="" />
+                </a>
+                <a href="" alt="" class=" card__overflow-link">
+                  <span class="card__overflow-link--category">Nature</span>
+                </a>
+              </div>
+              <span class="playfair-header card__title"
+                >Something I need to tell you</span
+              >
+              <span class="card__date">January 1, 2017</span>
+              <span class="card__content">
+                Saw gathering let. For. Great days divided greater living
+                multiply rule divide fly lights spirit...
+              </span>
+            </div>
+            <div class="latest__card">
+              <div class="card__links">
+                <a class="card__image" href="">
+                  <img src="img/post-2-800x600.jpg" alt="" srcset="" />
+                </a>
+                <a href="" alt="" class=" card__overflow-link">
+                  <span class="card__overflow-link--category">Nature</span>
+                </a>
+              </div>
+              <span class="playfair-header card__title"
+                >Why you should Always First</span
+              >
+              <span class="card__date">January 1, 2017</span>
+              <span class="card__content">
+                Fifth. Wherein. Own blessed. Subdue you're fruitful over. Every in beginning gathering isn't likeness be...                                
+              </span>
+            </div>
+            <div class="latest__card">
+              <div class="card__links">
+                <a class="card__image" href="">
+                  <img src="img/post-3-800x600.jpg" alt="" srcset="" />
+                </a>
+                <a href="" alt="" class=" card__overflow-link">
+                  <span class="card__overflow-link--category">Nature</span>
+                </a>
+              </div>
+              <span class="playfair-header card__title"
+                >Here’s a Simple Trick</span
+              >
+              <span class="card__date">January 1, 2017</span>
+              <span class="card__content">
+                
+                First, them tree you're Was. Give shall Unto earth above very one him own fruit...                                
+              </span>
+            </div>
+            <div class="latest__card">
+              <div class="card__links">
+                <a class="card__image" href="">
+                  <img src="img/post-4-800x600.jpg" alt="" srcset="" />
+                </a>
+                <a href="" alt="" class=" card__overflow-link">
+                  <span class="card__overflow-link--category">Nature</span>
+                </a>
+              </div>
+              <span class="playfair-header card__title"
+                >Something I need to tell you</span
+              >
+              <span class="card__date">January 1, 2017</span>
+              <span class="card__content">
+                Saw gathering let. For. Great days divided greater living
+                multiply rule divide fly lights spirit...
+              </span>
+            </div>
+            <div class="latest__card">
+              <div class="card__links">
+                <a class="card__image" href="">
+                  <img src="img/post-6-800x600.jpg" alt="" srcset="" />
+                </a>
+                <a href="" alt="" class=" card__overflow-link">
+                  <span class="card__overflow-link--category">Nature</span>
+                </a>
+              </div>
+              <span class="playfair-header card__title"
+                >Something I need to tell you</span
+              >
+              <span class="card__date">January 1, 2017</span>
+              <span class="card__content">
+                Saw gathering let. For. Great days divided greater living
+                multiply rule divide fly lights spirit...
+              </span>
+            </div>
+            <div class="latest__card">
+              <div class="card__links">
+                <a class="card__image" href="">
+                  <img src="img/post-3-800x600.jpg" alt="" srcset="" />
+                </a>
+                <a href="" alt="" class=" card__overflow-link">
+                  <span class="card__overflow-link--category">Nature</span>
+                </a>
+              </div>
+              <span class="playfair-header card__title"
+                >Something I need to tell you</span
+              >
+              <span class="card__date">January 1, 2017</span>
+              <span class="card__content">
+                Saw gathering let. For. Great days divided greater living
+                multiply rule divide fly lights spirit...
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="Contact">
+        <div class="container container--center change-flow">
+          <div class="contacts__info">
+            <h2 class="contacts__title playfair-header">Contact Info:</h2>
+            <p class="contacts__text-content">
+              Praesent interdum congue mauris, et fringilla lacus pel vitae.
+              Quisque nisl mauris, aliquam eu ultrices vel, conse vitae sapien
+              at imperdiet risus. Quisque cursus risus id. fermentum, in auctor
+              quam consectetur.
+            </p>
+            <span class="contacts__credits">
+              <span class="credits--bolder">Address:</span>10111 Santa Monica
+              Boulevard, LA</span
+            >
+            <span class="contacts__credits">
+              <span class="credits--bolder">Phone:</span>+44 987 065 908</span
+            >
+            <span class="contacts__credits">
+              <span class="credits--bolder">Email:</span> info@Example.com</span
+            >
+            <span class="contacts__credits"
+              ><span class="credits--bolder">Fax:</span>+44 987 065 909</span
+            >
+          </div>
+          <form action="" class="contacts__form">
+            <input
+              type="text"
+              name="name"
+              class="form__input input--name"
+              id=""
+              placeholder="Your Name"
+            />
+            <input
+              type="email"
+              name="email"
+              class="form__input input--email"
+              id=""
+              placeholder="Your Email"
+            />
+            <input
+              type="text"
+              name="subject"
+              class="form__input "
+              id=""
+              placeholder="Your Subject"
+            />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="5"
+              class="form__input input--textarea"
+              placeholder="Your Message"
+            ></textarea>
+            <input
+              type="submit"
+              value="send message"
+              class="form__input input--submit"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container container--center">
+        <div class="footer__socials">
+          <a href="" class="socials__link"></a>
+          <a href="" class="socials__link"></a>
+          <a href="" class="socials__link"></a>
+          <a href="" class="socials__link"></a>
+        </div>
+        <span class="credits">2016 © Design by Unvab. Code by nK</span>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"
+  ></script>
+  <script src="OwlCarousel/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
